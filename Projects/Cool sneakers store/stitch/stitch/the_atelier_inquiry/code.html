@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed-variant": "#4723be",
+                    "secondary": "#505d86",
+                    "on-surface-variant": "#4d4635",
+                    "surface-container-lowest": "#ffffff",
+                    "surface": "#faf9f5",
+                    "background": "#faf9f5",
+                    "tertiary": "#6042d6",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#1c0062",
+                    "on-secondary": "#ffffff",
+                    "on-primary-container": "#564300",
+                    "primary": "#745b00",
+                    "surface-container": "#efeeea",
+                    "surface-variant": "#e3e2df",
+                    "surface-container-high": "#e9e8e4",
+                    "primary-container": "#d5af37",
+                    "on-tertiary-container": "#4620bc",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#f2f1ed",
+                    "inverse-surface": "#2f312e",
+                    "surface-container-highest": "#e3e2df",
+                    "tertiary-container": "#b6a7ff",
+                    "tertiary-fixed": "#e6deff",
+                    "inverse-primary": "#eac249",
+                    "on-background": "#1b1c1a",
+                    "secondary-container": "#c0cdfd",
+                    "surface-container-low": "#f4f4f0",
+                    "on-secondary-fixed-variant": "#38456d",
+                    "error-container": "#ffdad6",
+                    "error": "#ba1a1a",
+                    "surface-tint": "#745b00",
+                    "outline": "#7f7663",
+                    "on-primary-fixed": "#241a00",
+                    "outline-variant": "#d0c5af",
+                    "secondary-fixed-dim": "#b8c5f4",
+                    "primary-fixed-dim": "#eac249",
+                    "on-secondary-fixed": "#0a193f",
+                    "secondary-fixed": "#dbe1ff",
+                    "on-primary-fixed-variant": "#584400",
+                    "on-secondary-container": "#4a567f",
+                    "surface-bright": "#faf9f5",
+                    "on-error-container": "#93000a",
+                    "on-surface": "#1b1c1a",
+                    "tertiary-fixed-dim": "#cabeff",
+                    "surface-dim": "#dbdad6",
+                    "primary-fixed": "#ffe08b",
+                    "on-tertiary": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": [
+                            "Newsreader"
+                    ],
+                    "body": [
+                            "Manrope"
+                    ],
+                    "label": [
+                            "Manrope"
+                    ]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .minimalist-input:focus {
+            outline: none;
+            border-bottom-width: 2px;
+            border-color: #745b00;
+        }
+        .text-shadow-subtle {
+            text-shadow: 0 2px 4px rgba(77, 70, 53, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<nav class="fixed top-0 w-full z-50 bg-transparent backdrop-blur-md">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1440px] mx-auto">
+<div class="text-2xl font-headline text-primary dark:text-primary-container tracking-tighter">
+                Ethereal Atelier
+            </div>
+<div class="hidden md:flex space-x-12 items-center">
+<a class="font-headline italic tracking-tight text-on-surface opacity-80 hover:scale-105 hover:text-primary transition-transform duration-300" href="#">Portfolio</a>
+<a class="font-headline italic tracking-tight text-on-surface opacity-80 hover:scale-105 hover:text-primary transition-transform duration-300" href="#">Services</a>
+<a class="font-headline italic tracking-tight text-on-surface opacity-80 hover:scale-105 hover:text-primary transition-transform duration-300" href="#">Heritage</a>
+<a class="font-headline italic tracking-tight text-secondary dark:text-primary border-b-2 border-primary pb-1 hover:scale-105 transition-transform duration-300" href="#">Inquiry</a>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-8 py-3 rounded-DEFAULT font-label uppercase tracking-widest text-xs hover:scale-102 transition-all duration-200">
+                Book a Gala
+            </button>
+</div>
+</nav>
+<main class="pt-32">
+<section class="max-w-[1440px] mx-auto px-12 mb-24 grid grid-cols-1 md:grid-cols-12 gap-16 items-start">
+<div class="md:col-span-5 space-y-12">
+<div class="space-y-4">
+<span class="label-md font-label uppercase tracking-[0.2em] text-secondary text-xs">Concierge Services</span>
+<h1 class="font-headline text-7xl font-bold tracking-tight text-on-surface leading-tight italic">The Atelier <br/>Inquiry</h1>
+</div>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed max-w-md">
+                    To begin the orchestration of your bespoke event, please share your vision with us. Our curators treat every inquiry as the first brushstroke of a masterpiece.
+                </p>
+<div class="relative w-full aspect-[4/5] overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover" data-alt="Luxurious grand ballroom setting with crystal chandeliers reflecting golden light and elegant floral arrangements on white draped tables" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVTGpYMQmiiQrxbLnjXzqJbLejRRXrPcCMEJs58PrvHGEsX4_Z-u7DRYlJKjsmjLTb-NQahdAv-y5a374iANHB85hgDXnpaw_X1ogoUjq7nMMRxWpHhyeh-BhCA17UyNLdHyqEEGg1hk5zv6_q6mmQxn3ham5wpFnU_zKGGYRzl5ROjn2cF92OuB-b8zDUFVTTzu05J0yk4v4qMg0NpOJ6bfTo6VrkFqJIt619sb946_mys-t9fPUVq64UpV2c8euDfmiRQTJCHdk4"/>
+</div>
+</div>
+<div class="md:col-span-7">
+<div class="bg-primary p-16 rounded-none shadow-[0px_20px_40px_rgba(77,70,53,0.06)]">
+<form class="space-y-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="flex flex-col space-y-2 group">
+<label class="font-label uppercase tracking-widest text-[10px] text-surface opacity-60">Full Name</label>
+<input class="bg-transparent border-0 border-b border-outline-variant border-opacity-40 text-surface placeholder:text-surface placeholder:opacity-30 py-3 font-headline italic text-xl focus:ring-0 focus:border-white transition-all duration-300" placeholder="Your Name" type="text"/>
+</div>
+<div class="flex flex-col space-y-2 group">
+<label class="font-label uppercase tracking-widest text-[10px] text-surface opacity-60">Email Address</label>
+<input class="bg-transparent border-0 border-b border-outline-variant border-opacity-40 text-surface placeholder:text-surface placeholder:opacity-30 py-3 font-headline italic text-xl focus:ring-0 focus:border-white transition-all duration-300" placeholder="email@example.com" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="flex flex-col space-y-2 group">
+<label class="font-label uppercase tracking-widest text-[10px] text-surface opacity-60">Proposed Date</label>
+<input class="bg-transparent border-0 border-b border-outline-variant border-opacity-40 text-surface placeholder:text-surface placeholder:opacity-30 py-3 font-headline italic text-xl focus:ring-0 focus:border-white transition-all duration-300" placeholder="Autumn 2025" type="text"/>
+</div>
+<div class="flex flex-col space-y-2 group">
+<label class="font-label uppercase tracking-widest text-[10px] text-surface opacity-60">Expected Guests</label>
+<input class="bg-transparent border-0 border-b border-outline-variant border-opacity-40 text-surface placeholder:text-surface placeholder:opacity-30 py-3 font-headline italic text-xl focus:ring-0 focus:border-white transition-all duration-300" placeholder="Intimate / Grand" type="text"/>
+</div>
+</div>
+<div class="flex flex-col space-y-2 group">
+<label class="font-label uppercase tracking-widest text-[10px] text-surface opacity-60">The Vision</label>
+<textarea class="bg-transparent border-0 border-b border-outline-variant border-opacity-40 text-surface placeholder:text-surface placeholder:opacity-30 py-3 font-headline italic text-xl focus:ring-0 focus:border-white transition-all duration-300 resize-none" placeholder="Describe the atmosphere and aesthetic you wish to evoke..." rows="4"></textarea>
+</div>
+<div class="pt-8">
+<button class="w-full bg-surface text-primary py-5 font-label uppercase tracking-[0.3em] text-sm hover:scale-[1.01] transition-transform duration-200" type="submit">
+                                Submit Inquiry
+                            </button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<section class="bg-surface-container-low py-32">
+<div class="max-w-[1440px] mx-auto px-12">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-6 order-2 md:order-1">
+<div class="grid grid-cols-2 gap-4">
+<img class="w-full aspect-square object-cover rounded-lg" data-alt="Close up of ornate silver cutlery and fine bone china with gold trim on a linen tablecloth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_HGibkSD3pPKcpr81c4V8_e9_WsRbooTAnCOF9OHT-d2rUo8wkzrsBZIivOZPzI-2ZUrS-RkBc5p2ft3oHKpTHMv4hP1cT4mkeDBv-37JGBbW7gWNy_4MbaTCBunnwt5yfbRAeMT0TAN8QPqIYrdHQ9us-uiF73N5aorEMEdHQ6kfXwp3sbwzu05E2_VA2gfRfGZ6jw2Z3XgBn_nv7rGwNMQQrIytYXxebIRmewmR_t9TDcMNOUsDEOxLsriQd3bafJWHH6ULDhR1"/>
+<img class="w-full aspect-[2/3] object-cover rounded-lg -mt-12" data-alt="Dramatic high contrast architectural detail of a classic European palace ceiling with intricate plasterwork" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7AZ3l9jbgrHcmss4Y52i-_TuYgJbBgzt7cuTn3rAv3JRk8MplCXUZLV2RcmsGjXEJ6WBmzYZbebOQ7zk18-4cM6jq3N2I374A-sCCTB7Q4P6dAoln32kGZ5oPN1VlJyhV_PWGMt3nXdBw4nEkvr0MR__AVOBmCXgnkcRd6bsFHAJf9uLJGXy_0ViFPxr11n_1UXYMQFxFRfgZJCv9T7wm6KPOlFU9D1dBxjmzIjTYE4AcE-4-zqT_u0Yr-NwD3biZIisWmNtvvgah"/>
+</div>
+</div>
+<div class="md:col-span-6 order-1 md:order-2 space-y-8">
+<div class="space-y-4">
+<span class="label-md font-label uppercase tracking-[0.2em] text-primary text-xs">Our Heritage</span>
+<h2 class="font-headline text-5xl font-bold tracking-tight text-on-surface">The Legacy</h2>
+</div>
+<div class="space-y-6 font-body text-on-surface-variant leading-relaxed">
+<p>Founded on the principles of timeless elegance and modern sophistication, Ethereal Atelier has curated the world's most exclusive gatherings for over two decades.</p>
+<p>Our legacy is built upon the silent details—the way light catches a crystal stem, the perfect weight of a handwritten invitation, and the seamless transition of a gala from sunset to starlight.</p>
+<p class="font-headline italic text-2xl text-primary mt-8">"We do not just host events; we preserve the art of the celebration."</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 text-center max-w-4xl mx-auto px-6">
+<div class="inline-block p-12 border-outline-variant border-opacity-20 border">
+<h3 class="font-headline text-3xl italic mb-6">A Private Consultation</h3>
+<p class="font-body text-on-surface-variant mb-8">For immediate assistance or highly confidential inquiries, our principal curator is available via direct line.</p>
+<div class="flex items-center justify-center space-x-2 text-primary font-label uppercase tracking-widest text-sm">
+<span class="material-symbols-outlined">call</span>
+<span>+1 (800) ETHEREAL</span>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-primary dark:bg-on-background w-full rounded-none flex flex-col items-center justify-center py-20 px-4 space-y-8 shadow-inner">
+<div class="text-3xl font-headline text-surface">Ethereal Atelier</div>
+<div class="flex space-x-8">
+<a class="font-label uppercase tracking-[0.1em] text-xs text-surface opacity-60 hover:opacity-100 hover:text-primary-container transition-opacity" href="#">Privacy Policy</a>
+<a class="font-label uppercase tracking-[0.1em] text-xs text-surface opacity-60 hover:opacity-100 hover:text-primary-container transition-opacity" href="#">Terms of Service</a>
+<a class="font-label uppercase tracking-[0.1em] text-xs text-surface opacity-60 hover:opacity-100 hover:text-primary-container transition-opacity" href="#">Press Kit</a>
+</div>
+<div class="font-label uppercase tracking-[0.1em] text-xs text-surface opacity-60">
+            © 2024 Ethereal Atelier. All rights reserved.
+        </div>
+</footer>
+</body></html>

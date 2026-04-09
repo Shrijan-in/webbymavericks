@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Our Heritage | Ethereal Atelier</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed-variant": "#4723be",
+                        "secondary": "#505d86",
+                        "on-surface-variant": "#4d4635",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#faf9f5",
+                        "background": "#faf9f5",
+                        "tertiary": "#6042d6",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#1c0062",
+                        "on-secondary": "#ffffff",
+                        "on-primary-container": "#564300",
+                        "primary": "#745b00",
+                        "surface-container": "#efeeea",
+                        "surface-variant": "#e3e2df",
+                        "surface-container-high": "#e9e8e4",
+                        "primary-container": "#d5af37",
+                        "on-tertiary-container": "#4620bc",
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#f2f1ed",
+                        "inverse-surface": "#2f312e",
+                        "surface-container-highest": "#e3e2df",
+                        "tertiary-container": "#b6a7ff",
+                        "tertiary-fixed": "#e6deff",
+                        "inverse-primary": "#eac249",
+                        "on-background": "#1b1c1a",
+                        "secondary-container": "#c0cdfd",
+                        "surface-container-low": "#f4f4f0",
+                        "on-secondary-fixed-variant": "#38456d",
+                        "error-container": "#ffdad6",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#745b00",
+                        "outline": "#7f7663",
+                        "on-primary-fixed": "#241a00",
+                        "outline-variant": "#d0c5af",
+                        "secondary-fixed-dim": "#b8c5f4",
+                        "primary-fixed-dim": "#eac249",
+                        "on-secondary-fixed": "#0a193f",
+                        "secondary-fixed": "#dbe1ff",
+                        "on-primary-fixed-variant": "#584400",
+                        "on-secondary-container": "#4a567f",
+                        "surface-bright": "#faf9f5",
+                        "on-error-container": "#93000a",
+                        "on-surface": "#1b1c1a",
+                        "tertiary-fixed-dim": "#cabeff",
+                        "surface-dim": "#dbdad6",
+                        "primary-fixed": "#ffe08b",
+                        "on-tertiary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Newsreader"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+        }
+        .sunlight-shadow {
+            box-shadow: 0px 20px 40px rgba(77, 70, 53, 0.06);
+        }
+        .gold-gradient-btn {
+            background: linear-gradient(to right, #745b00, #d5af37);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-transparent backdrop-blur-md">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1440px] mx-auto">
+<span class="text-2xl font-serif text-[#745b00] dark:text-[#d5af37] tracking-tighter font-headline italic">Ethereal Atelier</span>
+<div class="hidden md:flex items-center space-x-12">
+<a class="font-serif italic tracking-tight text-[#1b1c1a] dark:text-[#faf9f5] opacity-80 hover:scale-105 hover:text-[#745b00] transition-transform duration-300" href="#">Portfolio</a>
+<a class="font-serif italic tracking-tight text-[#1b1c1a] dark:text-[#faf9f5] opacity-80 hover:scale-105 hover:text-[#745b00] transition-transform duration-300" href="#">Services</a>
+<a class="font-serif italic tracking-tight text-[#505d86] dark:text-[#745b00] border-b-2 border-[#745b00] pb-1 hover:scale-105 transition-transform duration-300" href="#">Heritage</a>
+<a class="font-serif italic tracking-tight text-[#1b1c1a] dark:text-[#faf9f5] opacity-80 hover:scale-105 hover:text-[#745b00] transition-transform duration-300" href="#">Inquiry</a>
+</div>
+<button class="gold-gradient-btn text-on-primary px-8 py-2.5 font-label uppercase tracking-widest text-xs hover:scale-102 transition-all duration-200">
+                Book a Gala
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-24 overflow-x-hidden">
+<!-- Hero Section: The Soul of Indore -->
+<section class="max-w-[1440px] mx-auto px-12 mb-40">
+<div class="grid grid-cols-12 gap-8 items-end">
+<div class="col-span-12 lg:col-span-7">
+<p class="font-label uppercase tracking-[0.2em] text-secondary text-sm mb-6">Foundations of Elegance</p>
+<h1 class="font-headline italic text-8xl md:text-9xl leading-[0.85] tracking-tighter text-on-surface mb-12">
+                        The Soul <br/> of <span class="text-primary">Indore.</span>
+</h1>
+</div>
+<div class="col-span-12 lg:col-span-5 pb-4">
+<p class="text-lg leading-relaxed text-on-surface-variant max-w-md font-body">
+                        From the marble hallways of Rajwada to the global stages of high-modernity. Our heritage is a dialogue between ancestral grace and the ethereal lightness of tomorrow.
+                    </p>
+</div>
+</div>
+<div class="mt-20 relative h-[716px] w-full">
+<img class="w-full h-full object-cover grayscale opacity-90" data-alt="A majestic black and white close-up of traditional Indori stone carving architecture with sunlight creating high contrast shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtldJMJZkvXaplpZ-puKIiYpWJrXigV3KQPBrbaRIYNSoOjwIBMLLvpaDH69ER-spmyu7C6qxic9-1O01kRqyeFkRM-MwPR-Rk4N-sxHm7D5Sw5RnQ3tVYhP4VUQrnilYEsQg_ZsqWOrmxzPl1G-DG6ZdKKFfMe9Ok7aHyg8TbL3Qz7lIxUDdTrDBRXFFbaSySPHUzYKsIhQyFWxtSH7gOap18ZMksknEVmnm9hpzFJWcXjgNgk8akqupM6giglO9lyDZ3A-VQlNz8"/>
+<div class="absolute -bottom-12 -right-12 w-1/3 aspect-[4/5] sunlight-shadow border-8 border-surface z-10">
+<img class="w-full h-full object-cover" data-alt="Modern high fashion gala setting with warm liquid gold lighting reflecting on glass surfaces and elegant floral arrangements" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCABboSag-JfGhYG8dHminwJ5PdYxoTR6J7n8Ie9G5Ayts7ctrozeRPyOAjdepoKwZfSL1N-ivm4yzRQUHR7hRHvE1Mnz6oHf2DEzOY7vw79HxtgdYVa_McUk8u8bgilr8UZYTnhdar4L0wryzUkbhXoKqsH30m9DzGojRLpjkwcsmMNwcEmB9p2Ih_pfk-f-ELkZpgQxjJ7NF3ZSOptXIdKUkvs2rokJcHkRDadWR-mR4UVE90ZqUlUKFvumP8_izjTqLUUU1w2YTB"/>
+</div>
+</div>
+</section>
+<!-- Chapter 1: The Indore Roots -->
+<section class="bg-surface-container-low py-40">
+<div class="max-w-[1440px] mx-auto px-12">
+<div class="grid grid-cols-12 gap-16 items-center">
+<div class="col-span-12 lg:col-span-5 order-2 lg:order-1">
+<div class="space-y-12">
+<h2 class="font-headline text-5xl leading-tight italic text-primary">Ancestral <br/> Craftsmanship.</h2>
+<div class="w-16 h-[1px] bg-outline-variant opacity-40"></div>
+<p class="font-body text-on-surface-variant leading-loose">
+                                Born in the heart of Madhya Pradesh, Ethereal Atelier began as a boutique collective of artisans dedicated to preserving the regal aesthetic of the Holkar era. Every line we draw today is a tribute to the intricate motifs found in the historical corridors of our home city.
+                            </p>
+<p class="font-body text-on-surface-variant leading-loose italic">
+                                "Luxury is not bought; it is inherited through the meticulous hands of those who remember."
+                            </p>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+<div class="relative grid grid-cols-2 gap-4">
+<div class="space-y-4">
+<img class="w-full aspect-[3/4] object-cover grayscale" data-alt="Vintage archival photograph of an Indian palace interior with intricate gold leaf work and high ceilings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB9KfwpxdBVA8KgWple35efC625giz8RC0GG6kIzWNI7cpFis1RzGNKTfuNsn8N--6-XJ65oXIUGq4C3EO2neyLTo6nx0Csxck4VKvYxbo-EV0MQzjxz0PJRCYUmhSmilKH9e7Hi7OLG70lj16cFRjJ9xOrUEMbV-XdDT8fE4fU03zg_w9wC9AbNk0m856Ehw8phChv_5JSkda2qwsgZDk66MVzhrlIFesHuAJiWyjbeD1iKU1TPiV-IbFzvTuDnyMS5ob_C7OHTOU"/>
+</div>
+<div class="pt-12 space-y-4">
+<img class="w-full aspect-[3/4] object-cover" data-alt="Detail shot of a modern luxury fabric with gold embroidery inspired by traditional Indian motifs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd08W0M0K4iXjqrhthY0eW7PR7IQiA4tGpRPXqM3BC3RD6cFUGgSzPHkXC5YcB8C6VGmt7LzK7RNTWlMH707ygly8k4oS3mTFC2ceCEE2kCdaIXHlYhGb6aNa8xboBmdSpwQDZhA7gWusR0CgGZP3sk7IErKUyTP1Uvsv2WTKtxewu69PyrRoFYJEIsKOnWV7m_4u0VMhCrcnLjrKGC8YESeBOageMQeDme1dFFoNygEYhQ8PdcAwk5u97UmBd7rXcy2JXTiM6rbdQ"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- The Curated Masonry -->
+<section class="py-40 max-w-[1440px] mx-auto px-12">
+<div class="text-center mb-24">
+<p class="font-label uppercase tracking-[0.2em] text-secondary text-sm mb-4">Visual Heritage</p>
+<h3 class="font-headline text-6xl italic">The Digital <span class="text-primary">Gala.</span></h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Staggered Layout -->
+<div class="space-y-8">
+<div class="group relative overflow-hidden">
+<img class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Atmospheric shot of a high-end dinner table setting with crystal glassware and gold cutlery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3UtMl6kBTn6sA3tcUj1h7EMh3uCQloX8_40_9qddbOnqOGVwPxD7ZGl4fMP7_hdBorqeJvkNaqsM4aRUMNyuWqv_xj_kn3TGYa4gGaHzkgnn-lCIYMICj7o9d-gO9NJwy6Qzwzm5jNMlu_kuMQFf3h82jxWWnCivby0BdAWvMLl5iUvlKv1MTCQUbgbWk6tw1Bx1vnnyP3ACPk81ABHMwcMvsppS6LkS-eonZ5JZxo2zxPTZboPuI2IsIBovVWKRQvw_5pP6VgcW9"/>
+</div>
+<div class="group relative overflow-hidden pt-12">
+<img class="w-full aspect-[2/3] object-cover" data-alt="Modern high fashion model in a flowing silk dress walking through a minimalist gallery space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmB-GUALDhMeFuebko-OPcRgppLhhUhX6dmaaEfZec03rmliWPjiaOA2_G-4QNsXdcZ7vnJeAHGWwT_xQbvFkXWDaT-WH0r-FLSf6jTqT7Ue4IkxI6rUwYpC9-oTN0jlca2J7NPtsmm8FzUSgXdLu_zC7giwPKoZtRjFX3UflEaVGNQFaH5wrF7FAKxf44yQz33yavtDlsNJTGOvgrUOTmgaR2bkBlSLBHXx9oEd8VZpGLkZX7SCpuKWMwPY1uL4Twaa-z2P1OsdaB"/>
+</div>
+</div>
+<div class="space-y-8 pt-24">
+<div class="group relative overflow-hidden">
+<img class="w-full aspect-[4/5] object-cover" data-alt="Detail of a traditional Indian silver necklace against a soft ivory background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3Hecx2h7f2ajXzt1JJPiF5ntlfndva0OXbvqN0l5cgCP_Cfp8BT2kzROR-4oAau8hpMEqHEZ6iyfTHtCXUvhsz3rTvmSMuSoKxJ-EsRpE0DmgAmgy9J1GrkNhmLiD_Be8htOEmc6pIPq9WszzireTEtbouIGP1HMF4VvoOJDjebKKTw5hQAqCySSCsxsRVXnorsoUu2zetV-rijNHm40B6fU1z5evNn6BWPWgUKeAK5Bpaf5a8j73ztvMIMbs_fVguHfrRJc3Aodt"/>
+</div>
+<div class="group relative overflow-hidden">
+<img class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Wide shot of a luxury storefront with gold accents and minimalist architecture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqWlKmIY1dhxbm_mQDIyV0a3b_rVzk3JNLrLxR21PHRi4vLU_rZiT1-9aBZLGFuY-XtHG7PCYbZ7gYj7HzBu15BhZbyA4A6pHxZoZ8L1PAploubNVevEixiKpgQSzSxyKpqREmF9HHI9qP_R-JWYTonQ29TuLyHf_zqUkXp-D182mS9ax6z0_Y-PkDjWkMM1PtwIRVuqDLz_lOiO-MFSDzb-Cl91QFsWJJC3GCi41-KOH4swht-jJ_-VBbvO2am5BmrbhVQbywvUeE"/>
+</div>
+</div>
+<div class="space-y-8">
+<div class="group relative overflow-hidden">
+<img class="w-full aspect-[3/4] object-cover" data-alt="Evening light hitting a stone wall with traditional carvings in a courtyard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSCKs3guIvAYv6OGqb5EdJgRoy_gwMktSdH--VPJC7F0RZE5BzGs5J1I6HA7BSw6qeIsKQh_xzhV-S4Jb1lTjI1KHbuB3m9Q8wuN92Z5dnUHAcCVW-nIrI8F8v0z3okvwle64-Fnb5tmlBpr3hg7RZ8Rq5_7u_t-PqqPZJ3NCUeW6U-HgPpO13ptie8P-0Fnn8DHCcU0ONPZEgx9bzhzXbnXP3hzQCfiOpY3SgSEDIlEdoR4-IjHAJCmzcrbHpsZ4JCx6pCZQ09tgj"/>
+</div>
+<div class="group relative overflow-hidden pt-8">
+<img class="w-full aspect-square object-cover" data-alt="Close-up of a sparkling champagne tower at a luxury event with soft bokeh" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCb4lQ2_PQHFMXefA93M3jxkrAsLqw--4FkTqB5lO7eDcZajPwPhjLYPZFwzah-3rX4nxKYXJ9KAK8KOBZdnZSpeS-njdR68uvbqKBK5smy-6e1kqEOlcha0lpMYV8BfhXBbosfown5bASTW0JyaXLqJmSQJtN6CoxFY0EtX_mC-EUFS5KWvzayOfYnxfadU3OXAZ0n6QC4I1PMwFmMtnZVRpcTwFtI63lgbgLxW3BI_5uMwWv9WaNlW_x3EbK700Cmrgg92F3uBSz"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Chapter 2: The Global Vision -->
+<section class="bg-primary text-on-primary py-40 overflow-hidden relative">
+<!-- Decorative Gold Text in Background -->
+<div class="absolute -right-20 top-0 text-[20rem] font-headline italic opacity-10 pointer-events-none select-none leading-none">
+                Vision
+            </div>
+<div class="max-w-[1440px] mx-auto px-12 relative z-10">
+<div class="grid grid-cols-12 gap-16">
+<div class="col-span-12 lg:col-span-6">
+<h2 class="font-headline text-7xl italic mb-12">From Indore <br/> to the <span class="text-primary-container">World.</span></h2>
+<p class="font-body text-xl opacity-80 leading-relaxed max-w-xl">
+                            Our expansion beyond the borders of India was not a departure, but a translation. We took the warmth of our hospitality and the complexity of our designs to the global stage, curated for the modern connoisseur.
+                        </p>
+</div>
+<div class="col-span-12 lg:col-span-6 flex items-end">
+<div class="glass-card sunlight-shadow p-12 w-full">
+<div class="grid grid-cols-2 gap-8">
+<div>
+<h4 class="font-headline text-3xl italic text-primary mb-2">24+</h4>
+<p class="font-label uppercase text-[10px] tracking-widest text-on-surface-variant">Global Cities</p>
+</div>
+<div>
+<h4 class="font-headline text-3xl italic text-primary mb-2">188</h4>
+<p class="font-label uppercase text-[10px] tracking-widest text-on-surface-variant">Artisan Families</p>
+</div>
+<div>
+<h4 class="font-headline text-3xl italic text-primary mb-2">12</h4>
+<p class="font-label uppercase text-[10px] tracking-widest text-on-surface-variant">Heritage Awards</p>
+</div>
+<div>
+<h4 class="font-headline text-3xl italic text-primary mb-2">Infinite</h4>
+<p class="font-label uppercase text-[10px] tracking-widest text-on-surface-variant">Future</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Inquiry Form: Editorial Minimalist -->
+<section class="py-40 max-w-[800px] mx-auto px-12 text-center">
+<h2 class="font-headline text-5xl italic mb-16 text-on-surface">Begin Your Own <span class="text-primary">Heritage.</span></h2>
+<form class="space-y-16">
+<div class="relative group">
+<input class="w-full bg-transparent border-0 border-b border-outline-variant border-opacity-40 focus:ring-0 focus:border-primary text-on-surface font-label uppercase tracking-widest text-sm py-4 placeholder:text-outline-variant placeholder:opacity-60 transition-all duration-300" placeholder="YOUR NAME" type="text"/>
+</div>
+<div class="relative group">
+<input class="w-full bg-transparent border-0 border-b border-outline-variant border-opacity-40 focus:ring-0 focus:border-primary text-on-surface font-label uppercase tracking-widest text-sm py-4 placeholder:text-outline-variant placeholder:opacity-60 transition-all duration-300" placeholder="EMAIL ADDRESS" type="email"/>
+</div>
+<div class="relative group">
+<textarea class="w-full bg-transparent border-0 border-b border-outline-variant border-opacity-40 focus:ring-0 focus:border-primary text-on-surface font-label uppercase tracking-widest text-sm py-4 placeholder:text-outline-variant placeholder:opacity-60 transition-all duration-300 resize-none" placeholder="YOUR VISION" rows="3"></textarea>
+</div>
+<button class="group flex items-center justify-center space-x-4 mx-auto pt-8" type="submit">
+<span class="font-label uppercase tracking-[0.3em] text-secondary font-bold group-hover:text-primary transition-colors">Submit Inquiry</span>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform">arrow_right_alt</span>
+</button>
+</form>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#745b00] dark:bg-[#1b1c1a] flex flex-col items-center justify-center py-20 px-4 space-y-8 shadow-inner">
+<span class="text-3xl font-serif text-[#faf9f5] font-headline italic">Ethereal Atelier</span>
+<div class="flex space-x-12">
+<a class="font-sans uppercase tracking-[0.1em] text-xs text-[#faf9f5] opacity-60 hover:opacity-100 hover:text-[#d5af37] transition-opacity" href="#">Privacy Policy</a>
+<a class="font-sans uppercase tracking-[0.1em] text-xs text-[#faf9f5] opacity-60 hover:opacity-100 hover:text-[#d5af37] transition-opacity" href="#">Terms of Service</a>
+<a class="font-sans uppercase tracking-[0.1em] text-xs text-[#faf9f5] opacity-60 hover:opacity-100 hover:text-[#d5af37] transition-opacity" href="#">Press Kit</a>
+</div>
+<p class="font-sans uppercase tracking-[0.1em] text-xs text-[#faf9f5] opacity-60">© 2024 Ethereal Atelier. All rights reserved.</p>
+</footer>
+</body></html>

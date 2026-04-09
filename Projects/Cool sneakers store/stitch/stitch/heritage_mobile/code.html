@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed": "#1c0062",
+                    "on-surface-variant": "#4d4635",
+                    "on-secondary-fixed": "#0a193f",
+                    "outline-variant": "#d0c5af",
+                    "surface-variant": "#e3e2df",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed-dim": "#cabeff",
+                    "on-error-container": "#93000a",
+                    "secondary-fixed-dim": "#b8c5f4",
+                    "primary-fixed-dim": "#eac249",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#505d86",
+                    "on-tertiary-container": "#4620bc",
+                    "on-primary": "#ffffff",
+                    "surface-tint": "#745b00",
+                    "on-primary-container": "#564300",
+                    "tertiary-container": "#b6a7ff",
+                    "error": "#ba1a1a",
+                    "tertiary-fixed": "#e6deff",
+                    "surface-dim": "#dbdad6",
+                    "secondary-fixed": "#dbe1ff",
+                    "on-background": "#1b1c1a",
+                    "surface-container-highest": "#e3e2df",
+                    "secondary-container": "#c0cdfd",
+                    "on-surface": "#1b1c1a",
+                    "inverse-surface": "#2f312e",
+                    "on-primary-fixed-variant": "#584400",
+                    "surface": "#faf9f5",
+                    "surface-container": "#efeeea",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary-fixed-variant": "#4723be",
+                    "surface-bright": "#faf9f5",
+                    "outline": "#7f7663",
+                    "on-secondary-container": "#4a567f",
+                    "on-error": "#ffffff",
+                    "tertiary": "#6042d6",
+                    "on-primary-fixed": "#241a00",
+                    "primary": "#745b00",
+                    "surface-container-high": "#e9e8e4",
+                    "surface-container-low": "#f4f4f0",
+                    "primary-container": "#d5af37",
+                    "background": "#faf9f5",
+                    "error-container": "#ffdad6",
+                    "primary-fixed": "#ffe08b",
+                    "on-secondary-fixed-variant": "#38456d",
+                    "inverse-primary": "#eac249",
+                    "inverse-on-surface": "#f2f1ed"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Newsreader"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        .editorial-shadow {
+            box-shadow: 0px 20px 40px rgba(77, 70, 53, 0.06);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#faf9f5]/80 dark:bg-stone-950/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(77,70,53,0.06)] flex justify-between items-center px-6 h-20">
+<button class="text-[#745b00] dark:text-[#d4af37] hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<h1 class="text-2xl font-serif italic text-[#745b00] dark:text-[#d4af37] font-['Newsreader'] tracking-tighter">Modern Palace</h1>
+<button class="text-[#745b00] dark:text-[#d4af37] hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+</button>
+</nav>
+<main class="pt-20">
+<!-- Hero Section: Editorial Heritage -->
+<section class="relative h-[707px] w-full overflow-hidden flex items-end px-8 pb-16">
+<div class="absolute inset-0 z-0">
+<img alt="Heritage Architecture" class="w-full h-full object-cover grayscale brightness-50" data-alt="dramatic black and white high-contrast photo of a majestic indian palace archway with intricate stone carvings and soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhaqfYVtV1NumFZO6pv9v-EIHU8-8YFzuuBGnmOMG2JLBbUibkN2IBRJ9pAeMIy0i-FzcEm3r4D-ofmAp5yRA91mF2lT4ou6KuKaPOGSbh_CHLlyh3sMQBhjN_4JYZhrJ3Tzkog8OQKljQkZ114x8ErQWrc4i4UaSNozkOzyFedmyXRcRmvnuKG50Mun_UQW4xg6xqWfoBrx_Ck4gK9jQqsyANhRSW2m7PauhsKg_-EUEbNl29RGL9PTow3OuLAhMRBb2mIMAPHYe_"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-lg">
+<p class="font-label text-xs uppercase tracking-[0.2em] text-primary mb-4">Our Heritage Philosophy</p>
+<h2 class="font-headline text-5xl italic font-light leading-tight text-on-background">The Soul of <span class="text-primary">Indore</span>, Reimagined for the World.</h2>
+</div>
+</section>
+<!-- The Narrative: From History to Luxury -->
+<section class="px-8 py-24 bg-surface">
+<div class="mb-16">
+<span class="inline-block h-[1px] w-12 bg-primary mb-8"></span>
+<p class="font-headline text-2xl italic leading-relaxed text-on-surface-variant">
+                    Born from the basalt heart of Central India, our legacy is a dialogue between the monumental weight of history and the ethereal lightness of modern curation.
+                </p>
+</div>
+<!-- Asymmetric Masonry Storytelling -->
+<div class="space-y-20">
+<!-- Chapter 1 -->
+<div class="flex flex-col gap-6">
+<div class="w-full aspect-[4/5] overflow-hidden rounded-lg editorial-shadow">
+<img alt="Indore History" class="w-full h-full object-cover grayscale" data-alt="black and white moody close-up of weathered architectural stone details from rajwada palace indore reflecting deep history" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfz8Wjp9XmlRZadRdtaP6hXVg89K1XM1T5v8l8R8kado5CKc5wXNQ21exAbNKZIRch_9PB6RsQeTome7QEfLwvHQIupnxyY9KR_sF11W5OwwdZZnFDTuU5U1auxO2dDKX_HxS-iuqppFD-HCSKix2vyPI-N-LQxocc3URghF9_z78Ihbv0fwMnIBG-tMZ7GXB-SOVM18dKwYWg8mVn_LoYHGhs-QEwv8d00iJFqpt8nN7VpOU0PGG6OvpI7e2r2IrWbcruj1u4IlsK"/>
+</div>
+<div class="pr-12">
+<h3 class="font-headline text-3xl mb-4 italic">The Basalt Foundation</h3>
+<p class="text-on-surface-variant leading-loose">
+                            Indore’s architectural spirit is defined by the resilience of black basalt. We translate this strength into digital foundations that endure, grounding every creative endeavor in the permanence of royal lineage.
+                        </p>
+</div>
+</div>
+<!-- Chapter 2 -->
+<div class="flex flex-col gap-6 items-end">
+<div class="w-[85%] aspect-square overflow-hidden rounded-lg editorial-shadow">
+<img alt="Luxury Craft" class="w-full h-full object-cover grayscale" data-alt="close up macro photo of fine silk fabric with gold embroidery thread shimmering under soft warm museum lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDU2IM0nbZ7slirkVIRuYbhbshOm0BdVKJbN4Kb7kOXZI5T48CCjjRNHoPtwV0D4KGQ7TjU57-VNgxYgYnaNoqZ_R9QVHP7OprUlfCAAFH4xceh9rRBoL2VDV4qof6xy9no9UPyS_lpvCD5oxGGmmdSBW2WuoSbabkbldNXchzziNwSxr8ewPFf1B-NXSftXFxWf_xyjBWTn6rGl2Xe93A7qXCXq45bWQvkvddyIVOHJMszKkBIo-0Q4j7vhGrjvC0oGKW9U0QMhCVB"/>
+</div>
+<div class="pl-12 w-full text-right">
+<h3 class="font-headline text-3xl mb-4 italic">The Golden Thread</h3>
+<p class="text-on-surface-variant leading-loose">
+                            Luxury is not found in the excess, but in the precision of the detail. Like the Zari weavers of Madhya Pradesh, our curation is a meticulous intersection of tradition and avant-garde technique.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Quote Section -->
+<section class="bg-surface-container-low py-32 px-8 text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-8" data-icon="auto_awesome">auto_awesome</span>
+<blockquote class="font-headline text-4xl italic leading-tight text-on-surface mb-8">
+                "To curate is to protect the past while inviting the future to dance."
+            </blockquote>
+<p class="font-label text-xs uppercase tracking-widest text-primary">Modern Palace Philosophy</p>
+</section>
+<!-- Global Connection Bento -->
+<section class="p-8 space-y-4">
+<div class="grid grid-cols-2 gap-4">
+<div class="col-span-2 bg-surface-container-highest p-8 rounded-lg editorial-shadow">
+<h4 class="font-headline text-2xl italic mb-4">A Global Dialogue</h4>
+<p class="text-sm leading-relaxed text-on-surface-variant">We bridge the gap between Indore’s local mastery and the international luxury standards of London, Paris, and Dubai.</p>
+</div>
+<div class="aspect-square bg-primary-container p-6 flex flex-col justify-between rounded-lg">
+<span class="material-symbols-outlined text-on-primary-container text-3xl" data-icon="diamond">diamond</span>
+<p class="font-label text-xs font-bold uppercase text-on-primary-container">Curated Excellence</p>
+</div>
+<div class="aspect-square bg-secondary p-6 flex flex-col justify-between rounded-lg">
+<span class="material-symbols-outlined text-on-secondary text-3xl" data-icon="public">public</span>
+<p class="font-label text-xs font-bold uppercase text-on-secondary">Universal Appeal</p>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-24 px-8 text-center bg-surface">
+<h2 class="font-headline text-4xl mb-12 italic">Begin Your Royal Narrative.</h2>
+<button class="w-full bg-gradient-to-r from-[#745b00] to-[#d5af37] text-on-primary font-label uppercase tracking-[0.2em] py-5 rounded-md hover:scale-105 transition-transform">
+                Inquire for Curation
+            </button>
+</section>
+</main>
+<!-- NavigationDrawer (Suppressed for this specific journey but usually exists) -->
+<!-- Footer -->
+<footer class="bg-gradient-to-b from-[#745b00] to-[#d5af37] flex flex-col items-center py-16 px-8 text-center gap-6">
+<div class="font-['Newsreader'] text-3xl italic text-white mb-2">Modern Palace</div>
+<div class="flex flex-wrap justify-center gap-6 text-white/80 font-['Manrope'] tracking-widest text-xs uppercase">
+<a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-white transition-colors" href="#">Press Inquiries</a>
+</div>
+<div class="h-[1px] w-24 bg-white/20 my-4"></div>
+<p class="font-['Manrope'] tracking-widest text-[10px] uppercase text-white/70">
+            © 2024 Modern Palace Curation. All Rights Reserved.
+        </p>
+</footer>
+<!-- Bottom Navigation for Mobile -->
+<nav class="md:hidden fixed bottom-0 left-0 right-0 h-16 bg-surface/90 backdrop-blur-lg border-t border-outline-variant/20 flex items-center justify-around px-4 z-50">
+<a class="flex flex-col items-center gap-1 text-[#505d86]" href="#">
+<span class="material-symbols-outlined" data-icon="auto_awesome" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span class="text-[10px] font-label uppercase tracking-tighter font-bold">Portfolio</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-[#1b1c1a] opacity-70" href="#">
+<span class="material-symbols-outlined" data-icon="diamond">diamond</span>
+<span class="text-[10px] font-label uppercase tracking-tighter">Services</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-[#1b1c1a] opacity-70" href="#">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="text-[10px] font-label uppercase tracking-tighter">Journal</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-[#1b1c1a] opacity-70" href="#">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+<span class="text-[10px] font-label uppercase tracking-tighter">Inquire</span>
+</a>
+</nav>
+</body></html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Modern Palace | The Digital Curator</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed": "#1c0062",
+                    "on-surface-variant": "#4d4635",
+                    "on-secondary-fixed": "#0a193f",
+                    "outline-variant": "#d0c5af",
+                    "surface-variant": "#e3e2df",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed-dim": "#cabeff",
+                    "on-error-container": "#93000a",
+                    "secondary-fixed-dim": "#b8c5f4",
+                    "primary-fixed-dim": "#eac249",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#505d86",
+                    "on-tertiary-container": "#4620bc",
+                    "on-primary": "#ffffff",
+                    "surface-tint": "#745b00",
+                    "on-primary-container": "#564300",
+                    "tertiary-container": "#b6a7ff",
+                    "error": "#ba1a1a",
+                    "tertiary-fixed": "#e6deff",
+                    "surface-dim": "#dbdad6",
+                    "secondary-fixed": "#dbe1ff",
+                    "on-background": "#1b1c1a",
+                    "surface-container-highest": "#e3e2df",
+                    "secondary-container": "#c0cdfd",
+                    "on-surface": "#1b1c1a",
+                    "inverse-surface": "#2f312e",
+                    "on-primary-fixed-variant": "#584400",
+                    "surface": "#faf9f5",
+                    "surface-container": "#efeeea",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary-fixed-variant": "#4723be",
+                    "surface-bright": "#faf9f5",
+                    "outline": "#7f7663",
+                    "on-secondary-container": "#4a567f",
+                    "on-error": "#ffffff",
+                    "tertiary": "#6042d6",
+                    "on-primary-fixed": "#241a00",
+                    "primary": "#745b00",
+                    "surface-container-high": "#e9e8e4",
+                    "surface-container-low": "#f4f4f0",
+                    "primary-container": "#d5af37",
+                    "background": "#faf9f5",
+                    "error-container": "#ffdad6",
+                    "primary-fixed": "#ffe08b",
+                    "on-secondary-fixed-variant": "#38456d",
+                    "inverse-primary": "#eac249",
+                    "inverse-on-surface": "#f2f1ed"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Newsreader"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .serif-italic { font-family: 'Newsreader'; font-style: italic; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#faf9f5]/80 dark:bg-stone-950/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(77,70,53,0.06)] flex justify-between items-center px-6 h-20">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#745b00] dark:text-[#d4af37] scale-95 transition-all hover:scale-105" data-icon="menu">menu</span>
+</div>
+<h1 class="text-2xl font-serif italic text-[#745b00] dark:text-[#d4af37] font-['Newsreader'] tracking-tighter">Modern Palace</h1>
+<div class="w-6"></div> <!-- Spacer for center alignment -->
+</header>
+<main class="pt-20">
+<!-- Hero Section: Editorial & Asymmetric -->
+<section class="relative px-6 pt-12 pb-24 overflow-hidden">
+<div class="relative z-10">
+<p class="font-label uppercase tracking-[0.2em] text-xs text-secondary mb-4">The Indore Collection</p>
+<h2 class="font-headline text-5xl font-light leading-[1.1] text-on-surface tracking-tight mb-8">
+                    Where <span class="serif-italic">Heritage</span> meets the <span class="serif-italic">Avant-Garde</span>.
+                </h2>
+<!-- Hero Image Main (Asymmetric) -->
+<div class="relative w-full aspect-[4/5] mb-12">
+<img alt="Regal palace architecture with intricate carvings" class="w-full h-full object-cover rounded-lg shadow-2xl" data-alt="Stunning low angle shot of the Rajwada Palace in Indore with intricate wooden carvings and stone architecture under golden sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYHtll2F2oXZ3COpHOol0oZyM0U8mizDsFkw9EtXzIhz0aN_YcTlp2QF-W6LIM8XQBR1v6zCBllgc0heRIcRmasSUurPsmvdPPAkhaAewVBsaLgAKvx3r5-LKm8WS9pq4i2WKL1hQTB2bUuKtIbB8jzsKAs_C1dygTjqCb4ayxjyMpUmzMJjTSrYe64P1LyUEnxkQJ7qm90hABQ7pzeVkiyco-GeO9HoZuAhSXaX8EwwQ_1gU1rpUyAmw1im71ab_4sxOVfctrfsSU"/>
+<div class="absolute -bottom-6 -right-4 bg-primary-container p-6 rounded-none shadow-xl max-w-[200px]">
+<p class="font-label text-[10px] uppercase tracking-widest text-on-primary-container mb-2">Curated Event</p>
+<p class="font-headline text-lg italic leading-tight text-on-primary-container">The Maratha Gala, 2024</p>
+</div>
+</div>
+<div class="flex flex-col gap-6">
+<p class="text-on-surface-variant leading-relaxed max-w-xs">
+                        A digital sanctuary for those who seek the extraordinary. Modern Palace curates high-society experiences within the heart of Indore's royal legacy.
+                    </p>
+<a class="inline-flex items-center justify-center bg-gradient-to-r from-[#745b00] to-[#d5af37] text-on-primary px-8 py-4 rounded-md font-label uppercase tracking-widest text-xs hover:scale-[1.02] transition-transform duration-300" href="#">
+                        Secure Your Legacy
+                    </a>
+</div>
+</div>
+<!-- Background Decorative Element -->
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -z-10"></div>
+</section>
+<!-- Signature Component: Curated Masonry (Mobile Version) -->
+<section class="bg-surface-container-low py-20 px-6">
+<div class="mb-12">
+<span class="font-label text-[10px] uppercase tracking-[0.3em] text-secondary">The Portfolio</span>
+<h3 class="font-headline text-3xl mt-2 italic">A Glimpse of Sovereignty</h3>
+</div>
+<div class="flex flex-col gap-8">
+<!-- Card 1 -->
+<div class="group">
+<div class="aspect-[1/1] overflow-hidden rounded-lg mb-4">
+<img alt="Luxury event setting" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Exquisite luxury dining setup with crystal chandeliers, gold-rimmed plates, and white floral arrangements in a grand hall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAc-zmoo01DyK1NlnsY7oZ_Ggz3NYnTldPiPTa65FH9gYLFontEP-phzWEaTk3HyPM9-HLw6z1zbHcTEdTTroOpUGTieAHuffQc_Oy_tvk_z4u6mUez2vLAiHPSNJIIaA_85c4Nc9AmYfFpajkEo00nGjU3lf1G0CdYfIdQvoiDy6OCx5wW6twLOsiZ0OqYS1azeBDMjSqi6jvC7E44bxPYIQCPcKCXAYlaTe4Sc2lItLl-4tvpfbzVqbn-hg4S6HHXrw-dXRhG6I1h"/>
+</div>
+<p class="font-label text-xs uppercase tracking-widest text-primary mb-1">Curation Services</p>
+<h4 class="font-headline text-xl italic">The Crystal Courtyard</h4>
+</div>
+<!-- Card 2 (Asymmetric shift) -->
+<div class="group pl-12">
+<div class="aspect-[2/3] overflow-hidden rounded-lg mb-4">
+<img alt="Royal artifacts" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close up of ornate gold leaf details on a traditional Indian palace door with soft morning light casting shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5vYS92KxhXNXb-rN9RYaQENIG5TDfW4cD9Al7sk787ish_c7Ma85C_6wiQy5Lg56nSL5_V185EjllQPlkAZ9zJ9O7b8ooqJM80VTFwmXeKQ9x7PLR97fAXS4fpHR5KpnSqxFwCL1Ip67Co40NfQpyn2qBDh6eUl7U9TPCSwLS6XLcPk6HvKiDfZ8DQD_7TPohRR1_cbvMW3fUZI2XXK76ICeU8HVpz3zZOGzHhmWpQM5buRC3gU0DkBtpUxKDzIg09SrYwaN4Zcwz"/>
+</div>
+<p class="font-label text-xs uppercase tracking-widest text-primary mb-1">Private Galas</p>
+<h4 class="font-headline text-xl italic">Evening of the Holkars</h4>
+</div>
+<!-- Card 3 -->
+<div class="group pr-12">
+<div class="aspect-[4/3] overflow-hidden rounded-lg mb-4">
+<img alt="Gala atmosphere" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Sophisticated guests in formal attire at an outdoor evening event with twinkling fairy lights and historic architecture background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhrzr7pQLhL6ZAViA4icaNECZbNQbG6P2FDTak69ldadNMD7gNpNUsOMqXHsRMbuiS-Uz8BJNjx3NzqCSsVh0HsEYlxx-9ai6NRtXTUnkjYqljUPGKuWrYN7Zt-7BWBHDrPV-yX-J9g0jtItI49TXkj3Wqq8dVWNVz3eIF5KVCVIODGGrKkIj18MAheEprPVVXSZnhtSnX-cimcIXlFc1p1vXzCQpJ4HFw3KnIjutJPKpl8_6kFjBXXudAyuxVTsJTUzP4cCo2GTtg"/>
+</div>
+<p class="font-label text-xs uppercase tracking-widest text-primary mb-1">The Portfolio</p>
+<h4 class="font-headline text-xl italic">Midsummer Nocturne</h4>
+</div>
+</div>
+</section>
+<!-- Service Highlights (Tonal Nesting) -->
+<section class="py-24 px-6 bg-surface">
+<div class="grid grid-cols-1 gap-12">
+<div class="bg-surface-container-lowest p-8 shadow-[0px_20px_40px_rgba(77,70,53,0.06)] border-l-2 border-primary/20">
+<span class="material-symbols-outlined text-secondary text-3xl mb-4" data-icon="diamond">diamond</span>
+<h5 class="font-headline text-2xl italic mb-3">Bespoke Curation</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                        Every detail meticulously tailored to your lineage. From heirloom-inspired decor to gourmet menus that tell a story.
+                    </p>
+</div>
+<div class="bg-surface-container-lowest p-8 shadow-[0px_20px_40px_rgba(77,70,53,0.06)] border-r-2 border-primary/20 text-right">
+<span class="material-symbols-outlined text-secondary text-3xl mb-4" data-icon="auto_awesome">auto_awesome</span>
+<h5 class="font-headline text-2xl italic mb-3">Atmospheric Design</h5>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                        We transform spaces into immersive narratives, blending Indore’s historic charm with contemporary luxury.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Inquiry Form (Minimalist Editorial) -->
+<section class="py-24 px-6 bg-surface-container-highest">
+<div class="max-w-md mx-auto text-center">
+<h3 class="font-headline text-4xl italic mb-4">Begin the Inquire</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-secondary mb-12">Private Consultation Awaits</p>
+<form class="space-y-12 text-left">
+<div class="relative">
+<input class="w-full bg-transparent border-0 border-b border-outline-variant/40 py-3 px-0 focus:ring-0 focus:border-primary transition-all duration-500 placeholder:text-on-surface-variant/50" placeholder="Full Name" type="text"/>
+</div>
+<div class="relative">
+<input class="w-full bg-transparent border-0 border-b border-outline-variant/40 py-3 px-0 focus:ring-0 focus:border-primary transition-all duration-500 placeholder:text-on-surface-variant/50" placeholder="Email Address" type="email"/>
+</div>
+<div class="relative">
+<textarea class="w-full bg-transparent border-0 border-b border-outline-variant/40 py-3 px-0 focus:ring-0 focus:border-primary transition-all duration-500 placeholder:text-on-surface-variant/50 resize-none" placeholder="Tell us about your legacy" rows="3"></textarea>
+</div>
+<button class="w-full bg-[#745b00] text-white py-5 font-label uppercase tracking-widest text-xs hover:bg-[#5c4a00] transition-colors shadow-lg" type="submit">
+                        Submit Inquiry
+                    </button>
+</form>
+</div>
+</section>
+</main>
+<!-- Navigation Drawer (Not rendered directly but used for style guide) -->
+<!-- We skip literal NavigationDrawer rendering for the landing canvas to focus on the content shell as requested -->
+<!-- Footer -->
+<footer class="bg-gradient-to-b from-[#745b00] to-[#d5af37] flex flex-col items-center py-16 px-8 text-center gap-6">
+<h2 class="font-['Newsreader'] text-white text-3xl italic tracking-tighter">Modern Palace</h2>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="text-white font-['Manrope'] tracking-widest text-xs uppercase hover:text-white/80 transition-colors" href="#">Privacy Policy</a>
+<a class="text-white font-['Manrope'] tracking-widest text-xs uppercase hover:text-white/80 transition-colors" href="#">Terms of Service</a>
+<a class="text-white font-['Manrope'] tracking-widest text-xs uppercase hover:text-white/80 transition-colors" href="#">Press Inquiries</a>
+</div>
+<p class="font-['Manrope'] tracking-widest text-xs uppercase text-white/80 mt-4">
+            © 2024 Modern Palace Curation. All Rights Reserved.
+        </p>
+</footer>
+<!-- Bottom Navigation Bar (Mobile Destination Shell) -->
+<nav class="md:hidden fixed bottom-0 w-full bg-[#faf9f5]/90 backdrop-blur-lg border-t-0 shadow-[0px_-10px_30px_rgba(77,70,53,0.08)] z-50 flex justify-around items-center h-16 px-2">
+<button class="flex flex-col items-center gap-1 flex-1 text-[#745b00] font-bold">
+<span class="material-symbols-outlined" data-icon="auto_awesome" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span class="text-[9px] uppercase tracking-tighter">Explore</span>
+</button>
+<button class="flex flex-col items-center gap-1 flex-1 text-[#505d86] opacity-70">
+<span class="material-symbols-outlined" data-icon="diamond">diamond</span>
+<span class="text-[9px] uppercase tracking-tighter">Portfolio</span>
+</button>
+<button class="flex flex-col items-center gap-1 flex-1 text-[#505d86] opacity-70">
+<span class="material-symbols-outlined" data-icon="reception_3">groups_3</span>
+<span class="text-[9px] uppercase tracking-tighter">Galas</span>
+</button>
+<button class="flex flex-col items-center gap-1 flex-1 text-[#505d86] opacity-70">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+<span class="text-[9px] uppercase tracking-tighter">Inquire</span>
+</button>
+</nav>
+<!-- FAB Suppression: On landing pages, we prioritize the linear scroll journey and hero CTA -->
+</body></html>

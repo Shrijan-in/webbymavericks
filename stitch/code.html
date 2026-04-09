@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>WEBBY MAVERICKS | Web &amp; App Design Agency</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container-lowest": "#0e0e0e",
+                      "background": "#131313",
+                      "on-secondary-fixed": "#1c1b1b",
+                      "on-primary-container": "#00626e",
+                      "primary-fixed": "#9cf0ff",
+                      "primary-container": "#00e5ff",
+                      "outline": "#849396",
+                      "on-secondary-fixed-variant": "#474746",
+                      "surface-bright": "#3a3939",
+                      "surface-container-highest": "#353534",
+                      "secondary-fixed": "#e5e2e1",
+                      "error-container": "#93000a",
+                      "primary": "#c3f5ff",
+                      "on-secondary-container": "#b7b5b4",
+                      "on-tertiary-fixed-variant": "#594400",
+                      "inverse-surface": "#e5e2e1",
+                      "on-secondary": "#313030",
+                      "surface-tint": "#00daf3",
+                      "secondary-container": "#474746",
+                      "on-tertiary-container": "#6f5500",
+                      "primary-fixed-dim": "#00daf3",
+                      "on-tertiary": "#3e2e00",
+                      "tertiary-fixed": "#ffdf96",
+                      "surface-container": "#201f1f",
+                      "tertiary": "#ffeac0",
+                      "outline-variant": "#3b494c",
+                      "on-surface-variant": "#bac9cc",
+                      "on-primary": "#00363d",
+                      "on-primary-fixed": "#001f24",
+                      "inverse-primary": "#006875",
+                      "tertiary-fixed-dim": "#f3bf26",
+                      "inverse-on-surface": "#313030",
+                      "surface-dim": "#131313",
+                      "error": "#ffb4ab",
+                      "surface-variant": "#353534",
+                      "on-tertiary-fixed": "#251a00",
+                      "secondary": "#c8c6c5",
+                      "on-error-container": "#ffdad6",
+                      "surface-container-high": "#2a2a2a",
+                      "on-error": "#690005",
+                      "on-surface": "#e5e2e1",
+                      "secondary-fixed-dim": "#c8c6c5",
+                      "surface-container-low": "#1c1b1b",
+                      "surface": "#131313",
+                      "tertiary-container": "#fec931",
+                      "on-primary-fixed-variant": "#004f58",
+                      "on-background": "#e5e2e1"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Newsreader"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          }
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(53, 53, 52, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .ghost-border-bottom {
+            background: linear-gradient(90deg, transparent, #3b494c, transparent);
+            height: 1px;
+            width: 100%;
+        }
+        .text-glow {
+            text-shadow: 0 0 20px rgba(195, 245, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-transparent backdrop-blur-md flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<div class="font-serif text-2xl font-bold tracking-tighter text-white">WEBBY MAVERICKS</div>
+<div class="hidden md:flex space-x-12">
+<a class="font-serif text-sm tracking-widest uppercase text-cyan-400 border-b border-cyan-400/30 transition-colors duration-300" href="#">Home</a>
+<a class="font-serif text-sm tracking-widest uppercase text-slate-400 hover:text-white transition-colors duration-300" href="#">Services</a>
+<a class="font-serif text-sm tracking-widest uppercase text-slate-400 hover:text-white transition-colors duration-300" href="#">Works</a>
+<a class="font-serif text-sm tracking-widest uppercase text-slate-400 hover:text-white transition-colors duration-300" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-serif text-sm tracking-widest uppercase scale-95 active:scale-90 transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,229,255,0.4)]">
+            Get Started
+        </button>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-background"></div>
+<img alt="abstract digital waves" class="w-full h-full object-cover opacity-30" data-alt="abstract fluid digital waves in deep teal and cyan with soft ethereal lighting and cinematic grain texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvu5w9A4efyR4jpAnLBxVupeXoNHeJ2WsZLSWX6Du5NNPcnQlKbWQiDudAVCevY1ZW5B5tLuWBQeq-qfQMpFkE-tmyfBXxVC6QlxEMrhLDjIufRonn5Whtuo2CLMcrT6JYrFwb3f3xsyVJVIrwcQEi5KJHOYegnqhwrzwkfMfVuY4FrNu6Kv5OXBr-axcCH_-dvXeDOI5POISRJbG0GPIJ0LTToPLRHcy6nHCevspCmgJdFwU7AyXCiR5V6AiwHx7CloImdVl1H5Hv"/>
+</div>
+<div class="relative z-10 text-center max-w-5xl px-6">
+<h1 class="font-headline text-[clamp(3rem,8vw,5.5rem)] leading-[1.1] mb-8 font-bold tracking-tight">
+                Websites that <span class="italic font-normal text-primary text-glow">sell</span> while you <span class="italic font-normal text-primary text-glow">sleep</span>
+</h1>
+<p class="font-body text-xl text-on-surface-variant max-w-2xl mx-auto mb-12 leading-relaxed">
+                We bridge the gap between aesthetic excellence and commercial performance. Bespoke digital experiences curated for the world's most ambitious brands.
+            </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+<button class="bg-primary text-on-primary px-10 py-4 rounded-full font-label font-bold text-sm tracking-widest uppercase hover:scale-105 transition-transform">
+                    Get a website
+                </button>
+<button class="border border-outline-variant/30 text-on-surface px-10 py-4 rounded-full font-label font-bold text-sm tracking-widest uppercase hover:bg-white/5 transition-colors">
+                    See Our Work
+                </button>
+</div>
+</div>
+<div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
+<span class="text-[10px] font-label tracking-[0.3em] uppercase">Scroll to explore</span>
+<div class="w-px h-12 bg-gradient-to-b from-primary to-transparent"></div>
+</div>
+</header>
+<!-- Services Section -->
+<section class="py-32 px-6 md:px-12 max-w-[1920px] mx-auto bg-surface">
+<div class="mb-24 flex flex-col md:flex-row items-baseline gap-8">
+<h2 class="font-headline text-5xl md:text-7xl font-bold tracking-tighter">Services <span class="text-primary italic">we offer</span></h2>
+<div class="h-px flex-grow bg-outline-variant/15 hidden md:block"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-outline-variant/10">
+<!-- Branding -->
+<div class="bg-surface p-12 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-primary mb-8 text-4xl" style="font-variation-settings: 'FILL' 1;">pentagon</span>
+<h3 class="font-headline text-3xl mb-4">Branding</h3>
+<p class="text-on-surface-variant leading-relaxed">Defining your visual soul through color, type, and strategy that resonates with high-net-worth audiences.</p>
+</div>
+<!-- SaaS -->
+<div class="bg-surface p-12 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-primary mb-8 text-4xl" style="font-variation-settings: 'FILL' 1;">layers</span>
+<h3 class="font-headline text-3xl mb-4">SaaS Design</h3>
+<p class="text-on-surface-variant leading-relaxed">Complex systems simplified into intuitive interfaces that drive retention and user delight.</p>
+</div>
+<!-- Landing Pages -->
+<div class="bg-surface p-12 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-primary mb-8 text-4xl" style="font-variation-settings: 'FILL' 1;">auto_awesome_motion</span>
+<h3 class="font-headline text-3xl mb-4">Landing Page</h3>
+<p class="text-on-surface-variant leading-relaxed">High-conversion gateways designed with psychological precision to turn visitors into lifelong advocates.</p>
+</div>
+<!-- Animated Experiences -->
+<div class="bg-surface p-12 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-primary mb-8 text-4xl" style="font-variation-settings: 'FILL' 1;">cyclone</span>
+<h3 class="font-headline text-3xl mb-4">Animated Experiences</h3>
+<p class="text-on-surface-variant leading-relaxed">Interactive storytelling that lives and breathes, capturing attention in a world of static noise.</p>
+</div>
+<!-- Website Redesign -->
+<div class="bg-surface p-12 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-primary mb-8 text-4xl" style="font-variation-settings: 'FILL' 1;">refresh</span>
+<h3 class="font-headline text-3xl mb-4">Website Redesign</h3>
+<p class="text-on-surface-variant leading-relaxed">Breathing new life into outdated platforms, optimizing for modern performance and aesthetic standards.</p>
+</div>
+<!-- SEO -->
+<div class="bg-surface p-12 hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-primary mb-8 text-4xl" style="font-variation-settings: 'FILL' 1;">insights</span>
+<h3 class="font-headline text-3xl mb-4">SEO Strategy</h3>
+<p class="text-on-surface-variant leading-relaxed">Invisible architecture that ensures your beautiful design is found by the right people at the right time.</p>
+</div>
+</div>
+</section>
+<!-- Work Section (The Cinematic Reel) -->
+<section class="py-32 bg-surface-container-low overflow-hidden">
+<div class="px-6 md:px-12 mb-16">
+<h2 class="font-headline text-5xl md:text-7xl font-bold tracking-tighter max-w-4xl">
+                Work that <span class="italic text-primary font-normal">Speaks</span> for us
+            </h2>
+</div>
+<div class="flex overflow-x-auto pb-12 gap-8 px-6 md:px-12 no-scrollbar">
+<!-- Project 1 -->
+<div class="flex-none w-[85vw] md:w-[60vw] lg:w-[45vw] group">
+<div class="relative aspect-[16/10] overflow-hidden rounded-xl bg-surface-container-highest">
+<img alt="minimal watch interface" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="ultra-minimal luxury watch interface design displayed on a sleek digital tablet with soft shadows and premium lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqUfeW6_Lu1eOtfTs1ABdEZQNL92F769rtEGP1dkk48qrNcQPpBWWyq1u6_6yqfDatmRKGCGNgIpKC-2yoHgxZlxS84_jbzmEIeptPvw9hTe8JtpqkwdwbMHhRCsLYPXXcsVeWu4ABS33KzZWIrHZ9KOKuyuA5rDAAXkNYy65YRMQPx-oeMcm7AdKw2i1l4xMKUwV5wxE8FTH7TDP2h5t50eh-09NigSAZrZItbleq5AXQHZIEDYkjKCBWa2RhvKRo3kYNkMnhDjDi"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-white font-label tracking-widest uppercase border border-white/30 px-8 py-3 rounded-full">View Case</span>
+</div>
+</div>
+<div class="mt-6 flex justify-between items-start">
+<div>
+<p class="text-xs font-label text-primary tracking-[0.2em] uppercase mb-2">SaaS Architecture</p>
+<h4 class="font-headline text-3xl">Chronos Dashboard</h4>
+</div>
+<span class="font-headline text-xl text-outline-variant italic">/ 2024</span>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="flex-none w-[85vw] md:w-[60vw] lg:w-[45vw] group">
+<div class="relative aspect-[16/10] overflow-hidden rounded-xl bg-surface-container-highest">
+<img alt="abstract architecture web design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="contemporary architectural portfolio website showing geometric brutalist buildings with clean typography and high contrast shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADit2I0Pr8YyIvIBi4JjM3jFwrAiMetMRkWl28qQOHLOgwEmuuYC3vKk-KGBHTqbyvSZxAeurag4cZeQH-PFBRjfauDUJRMsLYdNbnXw05JOlqoIk_kIrcwq5zl_KNrSACb28gO9PpZY1fyFcAYqW7p4Rw7U393NoEpQSIN8pGxaCPP3C4-Ws8_e598uZ0bAkPVBu1dWLSYklXpkcb89noeGDBXT1fl7sDrH2n9xCGyL9RLNhKQqLX68V7KlUi9J4v_GxQAplbw2zn"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-white font-label tracking-widest uppercase border border-white/30 px-8 py-3 rounded-full">View Case</span>
+</div>
+</div>
+<div class="mt-6 flex justify-between items-start">
+<div>
+<p class="text-xs font-label text-primary tracking-[0.2em] uppercase mb-2">Visual Identity</p>
+<h4 class="font-headline text-3xl">Kinetica Brand</h4>
+</div>
+<span class="font-headline text-xl text-outline-variant italic">/ 2023</span>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="flex-none w-[85vw] md:w-[60vw] lg:w-[45vw] group">
+<div class="relative aspect-[16/10] overflow-hidden rounded-xl bg-surface-container-highest">
+<img alt="mobile app design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="luxury mobile app screen showing dark mode typography and fluid glassmorphism UI elements for a wealth management platform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqpRvDXyGu-gc3ss6qPm97abHgE0fq1gzWqhwH-cp93TLHXAGKpllvyJpi_Zr0IFKNEnnVxGB2lhSHCNogmKIbBJgiZ0wSK3eQFE_0_jWpwDnvtQNscdi-DeaKE7ktB1-Iif0b2JsMCx9WAcAyXEoIfNODF5yjDrAyg6HeVDnJ73_1wA5kgdVTd7F1yddfdtjLi2teW_S1vvozfbBSQ-IwbQW-YDlT3o6ljJYJFFgqhb_xHkrA_KM3WpV1c8nTUuPUcUDW0IeDwPE6"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-white font-label tracking-widest uppercase border border-white/30 px-8 py-3 rounded-full">View Case</span>
+</div>
+</div>
+<div class="mt-6 flex justify-between items-start">
+<div>
+<p class="text-xs font-label text-primary tracking-[0.2em] uppercase mb-2">Mobile Application</p>
+<h4 class="font-headline text-3xl">Aether Wallet</h4>
+</div>
+<span class="font-headline text-xl text-outline-variant italic">/ 2024</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Impact Section -->
+<section class="py-32 px-6 md:px-12 max-w-[1920px] mx-auto text-center relative">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-px ghost-border-bottom"></div>
+<h2 class="font-headline text-4xl mb-24 font-bold tracking-tight">Proven <span class="text-primary italic">Impacts</span></h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="p-12 glass-card rounded-full flex flex-col items-center justify-center aspect-square border border-outline-variant/10">
+<span class="text-6xl font-headline font-bold text-primary mb-4">+312%</span>
+<span class="font-label tracking-widest uppercase text-on-surface-variant text-sm">Conversion Rate</span>
+</div>
+<div class="p-12 glass-card rounded-full flex flex-col items-center justify-center aspect-square border border-primary/20 scale-110">
+<span class="text-6xl font-headline font-bold text-primary mb-4">2.4x</span>
+<span class="font-label tracking-widest uppercase text-on-surface-variant text-sm">Monthly Leads</span>
+</div>
+<div class="p-12 glass-card rounded-full flex flex-col items-center justify-center aspect-square border border-outline-variant/10">
+<span class="text-6xl font-headline font-bold text-primary mb-4">-45%</span>
+<span class="font-label tracking-widest uppercase text-on-surface-variant text-sm">Bounce Rate</span>
+</div>
+</div>
+</section>
+<!-- Team Section -->
+<section class="py-32 px-6 md:px-12 max-w-[1920px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+<div>
+<h2 class="font-headline text-5xl md:text-6xl font-bold tracking-tighter leading-tight mb-8">
+                    People behind your Business <span class="italic text-primary font-normal">website's success</span>
+</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-12">
+                    Design is personal. We don't just assign tasks; we curate a partnership where visionaries talk to visionaries. Meet the lead mavericks of your next digital era.
+                </p>
+<div class="flex gap-4">
+<div class="w-12 h-px bg-primary self-center"></div>
+<span class="font-label text-sm tracking-widest uppercase">The Founding Partners</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<!-- Shrijan -->
+<div class="group">
+<div class="aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-high mb-6">
+<img alt="Shrijan Singh" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="portrait of a confident creative director with modern styling, soft cinematic lighting, and dark neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmIpM2vOYVMfMXA7YyASVAq8TFlzyxCY4sZC0K5kv8qrYqGY9NQoGBz1cQDPq_4ixG--LcxA59SFQWR_d5nesQd9eOrbuJNq1BhQ0sYVY88Hgjqx3MID8lszoCqTm473aVSkDbOjKeudDLhzWZ7DHiJmZF3C_5qGA9mlZBnjyDsAqwDGJ5SiPglON-LcUDwNdP_jvWMG7MPuRCsFKfS_MdJ0jDBt3IshTSpECMXcJDsQwDjCzQr8ntVdvVhe2DdYBKe1cSefObt6fU"/>
+</div>
+<h4 class="font-headline text-2xl">Shrijan Singh</h4>
+<p class="font-label text-xs tracking-widest uppercase text-primary">Creative Strategy</p>
+</div>
+<!-- Ayush -->
+<div class="group pt-12">
+<div class="aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-high mb-6">
+<img alt="Ayush Pathak" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="portrait of a focused lead designer in a minimalist studio environment with subtle lens flare and high-end editorial feel" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCr5QaH-doc3wrk7QR0rPeKQv1e0phJ3-juWokRfW34WgcK0qqjuTBq9dWVMZ9-zRBm9ZQIDXxk2kDw1zVS4xxwM8CN0S5m8S_ZLXY4aLU91wzUt1v-ELGViIjIcPNkD9ZqZ7aX7KLOkAO9WLBHDoXkBQd80mbZyFn_pZds6wT8PRCXR1rSIdFo-iVjQ05ueeeXfpgjj1O2hBrkYlno8OtvFKtlt53rOOJeD1IBFifq76UIJYHqZaNJYGnYUgH6XoRnAdOWXc9HkoEo"/>
+</div>
+<h4 class="font-headline text-2xl">Ayush Pathak</h4>
+<p class="font-label text-xs tracking-widest uppercase text-primary">Experience Design</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 px-6 md:px-12 max-w-5xl mx-auto">
+<div class="text-center mb-24">
+<h2 class="font-headline text-6xl md:text-8xl font-bold tracking-tighter mb-6">Wanna <span class="italic text-primary font-normal">Connect</span> with Us?</h2>
+<p class="font-body text-on-surface-variant">Tell us about your project, and let's craft something remarkable.</p>
+</div>
+<form class="space-y-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="relative group">
+<input class="w-full bg-surface-container-high border-none rounded-xl p-6 text-on-surface placeholder-outline focus:ring-1 focus:ring-primary transition-all" placeholder="Name" type="text"/>
+</div>
+<div class="relative group">
+<input class="w-full bg-surface-container-high border-none rounded-xl p-6 text-on-surface placeholder-outline focus:ring-1 focus:ring-primary transition-all" placeholder="Email" type="email"/>
+</div>
+</div>
+<div class="relative group">
+<textarea class="w-full bg-surface-container-high border-none rounded-xl p-6 text-on-surface placeholder-outline focus:ring-1 focus:ring-primary transition-all" placeholder="Message" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary font-label font-bold text-sm tracking-[0.3em] uppercase py-8 rounded-full hover:scale-[1.01] transition-transform shadow-[0_20px_40px_rgba(0,229,255,0.15)]" type="submit">
+                Submit
+            </button>
+</form>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 px-12 bg-[#131313] flex flex-col md:flex-row justify-between items-center border-t border-white/5">
+<div class="mb-8 md:mb-0">
+<div class="font-serif text-xl font-bold text-white mb-2">WEBBY MAVERICKS</div>
+<p class="font-sans text-xs tracking-widest uppercase text-slate-500">© 2026 WEBBY MAVERICKS DESIGN AGENCY. ALL RIGHTS RESERVED.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 hover:text-cyan-400 transition-colors opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 hover:text-cyan-400 transition-colors opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 hover:text-cyan-400 transition-colors opacity-80 hover:opacity-100" href="#">Twitter</a>
+<a class="font-sans text-xs tracking-widest uppercase text-slate-500 hover:text-cyan-400 transition-colors opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+</div>
+</footer>
+</body></html>
